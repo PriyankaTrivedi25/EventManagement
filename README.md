@@ -23,6 +23,7 @@ Clone project on your machine and after run these commands
 
 ##### Update config in config/development.json
 Go to the config.js files according to your database. Need to update following parameters:
+
 db_url:  
 Ex. 
 For local mongodb : “mongodb://localhost:27017/<dbname>”
@@ -42,12 +43,12 @@ For the local mongo setup use this link: https://docs.mongodb.com/guides/server/
 For the atlas setup go through this link : https://docs.atlas.mongodb.com/
 
   
-#####Start Project
-Go to the project folder.Open command line and run `node index.js` command
-If you got this Message  "Server started successfully on port 3000 " then it means server is started now you can call API for text translation 
+## Start Project
+Go to the project folder.Open command line and run `node index.js` command.
+If you got this Message  "Server started successfully on port 3000 " then it means server is started now you can call API for text translation.
   
   
-#######Test API:
+## Test API:
 *** API for create/add event*****
 API Url : http://localhost:3000/api/add-event
 API type : POST
@@ -60,4 +61,5 @@ Body parameters:
 
 *** API for Fetch live and upcoming event*****
 API Url : http://localhost:3000/api/get-events
+
 API Type: GET
