@@ -1,6 +1,6 @@
 const config={
-    db_url:"mongodb://127.0.0.1:27017", //Database URL
-    database:"traslate", //Database Name
-    collection:"event" //Collection Name
+    db_url:"", //Database URL
+    database:"", //Database Name
+    collection:"" //Collection Name
 }
 module.exports = config;
