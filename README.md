@@ -48,19 +48,4 @@ For the atlas setup go through this link : https://docs.atlas.mongodb.com/
 Go to the project folder.Open command line and run `node index.js` command.
 If you got this Message  "Server started successfully on port 3000 " then it means server is started now you can call API for text translation.
   
-  
-## Test API:
-*** API for create/add event*****
-API Url : http://localhost:3000/api/add-event
-API type : POST
-Input type: raw (JSON)
-Body parameters:
-    event_name: ‘name of event’,
-    start_time: “Write time in ISODate eg: 2022-03-07T20:47:29.155Z”,
-    duration: e.g 90 (number data type)
 
-
-*** API for Fetch live and upcoming event*****
-API Url : http://localhost:3000/api/get-events
-
-API Type: GET
