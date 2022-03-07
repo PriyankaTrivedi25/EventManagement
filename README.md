@@ -29,7 +29,8 @@ Ex.
 For local mongodb : “mongodb://localhost:27017/<dbname>”
   
 For atlas : “mongodb+srv://<username>:<password>@cluster0.bzgei.mongodb.net/KnowledgeBase?retryWrites=true&w=majority”
-		Here <username>: Name of the user and 
+
+Here <username>: Name of the user and 
   
 <dbname>: Name of your database
 	
