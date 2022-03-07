@@ -26,13 +26,13 @@ Go to the config.js files according to your database. Need to update following p
 
 db_url:  
 Ex. 
-For local mongodb : “mongodb://localhost:27017/<dbname>”
+For local mongodb : “mongodb://localhost:27017/dbname”
   
-For atlas : “mongodb+srv://<username>:<password>@cluster0.bzgei.mongodb.net/KnowledgeBase?retryWrites=true&w=majority”
+For atlas : “mongodb+srv://username:password@cluster0.bzgei.mongodb.net/KnowledgeBase?retryWrites=true&w=majority”
 
-Here <username>: Name of the user and 
+Here username: Name of the user and 
   
-<dbname>: Name of your database
+dbname: Name of your database
 	
 database:   Name of your database eg:sample
 collection:  Name of your collection
